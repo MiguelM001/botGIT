@@ -1,0 +1,7 @@
+
+
+Ademas de las tablas Dominio y Nivel1 la araña a medida que recorre el dominio
+va creando tablas niveles en la BD dependiendo - generalmente una pagina llega hasta 
+el nivel 4 pero puede superar los 7 niveles
+
+NOTA Obviamente la base de datos esta incompleta es mas un test que otra cosa 

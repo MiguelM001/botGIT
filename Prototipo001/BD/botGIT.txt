@@ -1,0 +1,29 @@
+
+CREATE DATABASE BOTGIT;
+
+USE BOTGIT;
+
+CREATE TABLE Dominio(iddom INT, enlacedom VARCHAR(90), suichedom INT(1), PRIMARY KEY (enlacedom));
+
+INSERT INTO Dominio(iddom , enlacedom,  suichedom) VALUES('1','http://www.schrenk.com', '0');
+
+CREATE TABLE Nivel1(enlacen1 VARCHAR(90), enlacedom VARCHAR(90), PRIMARY KEY (enlacen1), FOREIGN KEY (enlacedom) REFERENCES Dominio(enlacedom) );
+
+SHOW TABLES;
+
+SELECT * FROM Dominio;
+
+SELECT * FROM Nivel1;
+
+SELECT * FROM Nivel2;
+
+SELECT * FROM Nivel3;
+
+SELECT * FROM Nivel4;
+
+SELECT * FROM Nivel5;
+
+SELECT * FROM Nivel6;
+
+SELECT * FROM Nivel7;
+

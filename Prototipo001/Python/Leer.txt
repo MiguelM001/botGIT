@@ -1,0 +1,47 @@
+botGIT - Python
+                  
+                             
+NOTA -> aun desarrollando                    
+
+
+ANTES DE EJECUTAR EL CODIGO SE REQUIERE EN LA SECUENCIA DESCRITA A CONTINUACION
+
+1.- Instalar python 3 -> https://www.python.org/downloads/
+
+2.- instalar pip -> https://pip.pypa.io/en/stable/installing/
+
+3.- Instalar virtualenv -> pip install virtualenv
+
+4.- instalar pytidylib -> http://countergram.com/open-source/pytidylib/docs/index.html
+
+
+SUGERENCIAS
+
+*Para instalar el modulo pyidylib se deben seguir los pasos que se detallan en la pagina 
+
+WINDOWS
+
+1.-  Descargar el archivo comprimido "tidy-5.2.0-win32.zip" desd http://binaries.html-tidy.org/
+
+2.-  Crear una carpeta en el directorio raiz en este caso "C://" ejemplo "C://tidy"
+
+3.-  Vaciar unicamente las archivos "tidy.exe" y "tidy.dll" de la carpeta bin
+
+4.-  Instalar la libreria desde el pip escribiendo el comando "pip install pytidylib"
+
+5.- Editar la variable del entorno 
+
+inicio >> click derecho en equipo >> configuracion avanzada del sistema >> varaiables del entorno >> 
+editar PATH >> C:\Python34;C:\Python34\Scripts;
+
+Listo
+
+MULTITHREADING 
+
+chequar enlaces
+
+* http://www.genbetadev.com/cc/introduccion-al-multiprocesamiento-en-c
+
+* http://www.genbetadev.com/tag/multiprocesamiento-en-python
+
+* http://mundogeek.net/archivos/2008/04/18/threads-en-python/

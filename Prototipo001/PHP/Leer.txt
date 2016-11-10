@@ -1,0 +1,36 @@
+botGIT -> PHP
+
+La clase principal es = botGIT
+
+NOTA aun sin concluir
+
+Antes de ejecutar el programa se debe instalar la base de datos
+tablas Dominio y Nivel1 de la carpeta BD luego cargar la primera
+tupla de la tabla Dominios que hara de primera semilla para la araña 
+
+////////////////////////////////////////////////////////////////////////////////
+
+Nota por defecto la bd cargara la primera tupla con el dominio de "http://www.schrenk.com"
+
+si se quiere cambiar de dominio hay que seguir varios pasos 
+
+1 para modificar regex en  "BotGITV2.php"
+
+2 buscar la funcion -> funtion almacenarEnBD($botGIT, $estaReserva, $nuevaBD, $dominioBD, $penetracion)
+
+3 linea 88 luego del comentario //EL FILTRO//
+
+4 descomentar -> //preg_match("(^(http(s?)\:\/\/)(.*)(\.gob.ve|\.mil.ve|\.edu.ve|\.tec.ve))siU", $filtarDominio[$i], $data);
+
+5 comentar el anterior o eliminar el anterior regex
+
+7 introducir la tupla 
+
+INSERT INTO Dominio(iddom , enlacedom,  suichedom) VALUES('1','http://www.caracas.gob.ve', '0');
+
+Nota ese dominio tiene mas de 1800 paginas
+
+
+NOTA se recomienda leer el siguiente PDF -> http://www.conatel.gob.ve/norma-tecnica-para-solicitud-de-dominios-por-parte-de-entes-u-organos-del-estado/
+
+
